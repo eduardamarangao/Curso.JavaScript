@@ -1,6 +1,6 @@
 // String = Text | Number = Número
-const primeiroNumero = 5;
-const segundoNumero = 10;
+const primeiroNumero = 6;
+const segundoNumero = 7;
 const resultado = primeiroNumero * segundoNumero;
-const resultaDuplicado = resultado * 2;
+//const resultaDuplicado = resultado * 2;
 console.log(resultaDuplicado);

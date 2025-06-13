@@ -6,12 +6,9 @@ const nome = 'eduarda';
 const sobrenome = 'amorim';
 const idade = 15;
 const peso = 63;
-const alturaEmM = 1.64; // Corrigido para metros (ao invés de cm)
-let indiceMassaCorporal; // peso / (altura * altura)
-let anoNascimento;
-
-indiceMassaCorporal = peso / (alturaEmM * alturaEmM);
-anoNascimento = 2025 - idade;
+const alturaEmM = 1.64; 
+let indiceMassaCorporal = peso / (alturaEmM * alturaEmM); 
+let anoNascimento = new Date().getFullYear() - idade;
 
 
 // template strings

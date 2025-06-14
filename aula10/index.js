@@ -1,9 +1,11 @@
 /* 
 * Aritméticos
-* + Adição / Concatenação
-* - / *
++ Adição / Concatenação ( - / *)
+** Potenciação
+% Resto da divisão
 */
 
-const num1 = 5
-const num2 = 10
-console.log(num1 + num2)
+const num1 = 10;
+const num2 = 5;
+const num3 = 10;
+console.log((num1 + num2) * num3);

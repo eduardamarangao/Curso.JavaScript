@@ -1,4 +1,4 @@
 //               012345
 let umaString = "Um texto";
 
-console.log(umaString.lastIndexOf('o', 3))
+console.log(umaString.search(/[a-z]/g))

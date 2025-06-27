@@ -1,4 +1,4 @@
 //               1234567
 let umaString = "Um texto";
 
-console.log(umaString[7])
+console.log(umaString[5])

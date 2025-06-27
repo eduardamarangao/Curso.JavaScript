@@ -1,4 +1,4 @@
-//               1234567
+//               012345
 let umaString = "Um texto";
 
-console.log(umaString[5])
+console.log(umaString.lastIndexOf('o'))

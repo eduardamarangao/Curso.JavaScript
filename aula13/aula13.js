@@ -1,4 +1,4 @@
 //               012345
 let umaString = "Um texto";
 
-console.log(umaString.lastIndexOf('o'))
+console.log(umaString.lastIndexOf('o', 3))

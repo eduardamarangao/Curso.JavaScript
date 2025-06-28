@@ -1,4 +1,4 @@
 //               012345
-let umaString = "Um texto";
+let umaString = "O rato roeu a roupa do rei de roma.";
 
-console.log(umaString.search(/[a-z]/g))
+console.log(umaString.replace(/r/g, 'g'))

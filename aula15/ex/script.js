@@ -1,4 +1,5 @@
-const numero = prompt("Digite um número: ");
+let numero = prompt("Digite um número: ");
+numero = Number(numero);
 const NumeroTitulo = document.querySelector("#numero-titulo");
 const Texto = document.getElementById("texto");
 

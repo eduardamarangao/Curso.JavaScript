@@ -1,2 +1,5 @@
 const alunos = ["duda", "maria", "joao", "ana"];
-console.log(alunos[2]);
+
+alunos[0] = 'eduardo'
+console.log(alunos)
+

@@ -1,5 +1,7 @@
-function saudacao(){
-    console.log('bom dia!')
+function saudacao(nome){
+    console.log('bom dia ' + nome)
 }
 
-saudacao()
+saudacao('duda')
+saudacao('ana')
+saudacao('julia')

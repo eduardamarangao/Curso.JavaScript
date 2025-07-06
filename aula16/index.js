@@ -1,9 +1,12 @@
 const alunos = ["duda", "maria", "joao"];
 
+delete alunos[1]
+console.log(alunos[1])
 
-const removido = alunos.shift()
-console.log(removido)
-console.log(alunos)
+
+//const removido = alunos.shift() //.pop
+//console.log(removido)
+
 
 //alunos.unshift('liza') Adiciona no começo
 //alunos.unshift('julia')

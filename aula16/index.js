@@ -1,6 +1,7 @@
-const alunos = ["duda", "maria", "joao", "ana"];
+const alunos = ["duda", "maria", "joao"];
 
-alunos[0] = 'eduardo'
-alunos[4] = 'luisa'
+alunos[alunos.length] = 'luis'
+alunos[alunos.length] = 'fábio'
+alunos[alunos.length] = 'julia'
 console.log(alunos)
 

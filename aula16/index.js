@@ -1,7 +1,9 @@
 const alunos = ["duda", "maria", "joao"];
 
-delete alunos[1]
-console.log(alunos[1])
+alunos.push('luiza')
+alunos.push('eduardo')
+
+console.log(alunos.slice(0, -2))
 
 
 //const removido = alunos.shift() //.pop

@@ -1,7 +1,12 @@
 const alunos = ["duda", "maria", "joao"];
 
-alunos.unshift('liza')
-alunos.unshift('julia')
+
+const removido = alunos.shift()
+console.log(removido)
+console.log(alunos)
+
+//alunos.unshift('liza') Adiciona no começo
+//alunos.unshift('julia')
 
 
 //alunos.push('luiza') Adiciona no fim
@@ -12,6 +17,6 @@ alunos[alunos.length] = 'luis'
 alunos[alunos.length] = 'fábio'
 alunos[alunos.length] = 'julia'
 */
-console.log(alunos)
+
 
 

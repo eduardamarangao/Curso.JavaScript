@@ -1,7 +1,11 @@
 const alunos = ["duda", "maria", "joao"];
 
-alunos.push('luiza')
-alunos.push('fabio')
+alunos.unshift('liza')
+alunos.unshift('julia')
+
+
+//alunos.push('luiza') Adiciona no fim
+//alunos.push('fabio')
 
 /*
 alunos[alunos.length] = 'luis'

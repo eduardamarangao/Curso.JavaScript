@@ -1,10 +1,13 @@
-const alunos = ["duda", "maria", "joao"];
+let alunos = ["duda", "maria", "joao"];
+alunos = 123
 
-alunos.push('luiza')
-alunos.push('eduardo')
 
-console.log(alunos.slice(0, -2))
+console.log(typeof alunos)
+console.log(alunos instanceof Array)
 
+
+//alunos.push('luiza')
+//alunos.push('eduardo')
 
 //const removido = alunos.shift() //.pop
 //console.log(removido)

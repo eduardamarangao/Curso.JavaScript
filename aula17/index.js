@@ -1,7 +1,9 @@
-function saudacao(nome){
-    return `Bom dia, ${nome}!`
+function soma(x, y){
+    const resultado = x + y
+    return resultado
 }
 
-
-const variavel = saudacao('Duda')
-console.log(variavel)
+console.log(soma(2,2))
+console.log(soma(15, 2))
+console.log(soma(10,10))
+console.log(soma(54,65))

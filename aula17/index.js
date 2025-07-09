@@ -3,5 +3,5 @@ function soma(x, y){
     return resultado
 }
 
-const resultado = soma(2, 4)
+const resultado = soma('eduarda ','amorim')
 console.log(resultado)

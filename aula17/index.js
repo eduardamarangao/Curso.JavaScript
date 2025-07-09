@@ -1,6 +1,5 @@
 function soma(x, y){
-    const resultado = x + y
-    return resultado
+    return resultado =  x + y
 }
 
 console.log(soma(2,2))

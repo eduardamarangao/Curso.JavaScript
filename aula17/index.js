@@ -1,6 +1,5 @@
-const raiz = (n) => {
-    return `A raiz de ${n} é ${n ** 0.5}.`
-};     
+const raiz = (n) => `A raiz de ${n} é ${n ** 0.5}.`
+    
 
 console.log(raiz(9))
 console.log(raiz(100))

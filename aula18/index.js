@@ -1,5 +1,7 @@
-let array = [1,2,3];
-array.push(4)
-array[0] = 'Duda'
-array = 'outra'
-console.log(array)
+const pessoa1 = {
+    nome: 'Eduarda',
+    sobrenome: 'Amorim',
+    idade: 15
+};
+
+console.log(pessoa1.nome)

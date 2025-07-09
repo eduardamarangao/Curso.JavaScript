@@ -1,8 +1,7 @@
 function soma(x, y){
-    return resultado =  x + y
+    const resultado = x + y
+    return resultado
 }
 
-console.log(soma(2,2))
-console.log(soma(15, 2))
-console.log(soma(10,10))
-console.log(soma(54,65))
+const resultado = soma(2, 4)
+console.log(resultado)

@@ -12,5 +12,5 @@ function soma(x = 1, y = 1) {
   return resultado;
 }
 
-const resultado = soma(3,6);
+const resultado = soma(3,6);a
 console.log(resultado);*/

@@ -5,3 +5,6 @@ function criaPessoa (nome, sobrenome, idade) {
         idade: idade
     }
 }
+
+const pessoa1 = criaPessoa('luiz', 'otávio', 25)
+console.log(pessoa1)

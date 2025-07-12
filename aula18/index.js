@@ -4,10 +4,21 @@ const pessoa1 = {
     idade: 15,
 
     fala() {
-        console.log('olá mundo!')
+        console.log(`A minha idade atual é ${this.idade}`)
+    },
+    incrementaIdade() {
+        this.idade++
     }
 }
 
+pessoa1.fala()
+pessoa1.incrementaIdade()
+pessoa1.fala()
+pessoa1.incrementaIdade()
+pessoa1.fala()
+pessoa1.incrementaIdade()
+pessoa1.fala()
+pessoa1.incrementaIdade()
 pessoa1.fala()
 
 

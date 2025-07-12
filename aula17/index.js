@@ -8,7 +8,7 @@ console.log(raiz(25))
 
 /*
 function soma(x = 1, y = 1) {
-  const resultado = x + y;
+  const reusltado = x + y;
   return resultado;
 }
 

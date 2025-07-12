@@ -4,4 +4,5 @@ null (bigint, symbol)
 */
 //          0123456
 let nome = 'eduarda'
-console.log(nome[0])
+nome[6] = 'o'
+console.log(nome[6], nome) // imutável

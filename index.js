@@ -9,17 +9,33 @@ function GetDataCard(NumCartao) {
   return cardinfo;
 }
 
-let NumCartao = "1234123412341234";
+let NumCartao = "1875463392866354"
 // const CartaoExtraido = GetDataCard(NumCartao);
 // console.log(CartaoExtraido);
 
 function ValidateCard(NumCartao) {
+  let soma = 0
 
   for (let cont = 0; cont <= 15; cont++) {
     if (cont % 2 == 0) {
-      console.log(NumCartao[cont] * 2);
+      let digit = NumCartao[cont] * 2
+      if (digit > 9) {
+        digit = Math.floor(digit / 10) + (digit % 10)
+      }
+
+      soma += digit
+    } else {
+      soma += parseInt(NumCartao[cont])
     }
   }
-}        
 
-ValidateCard(NumCartao);
+  console.log(`Valor da soma: ${soma}`)
+
+  if (soma % 10 == 0) {
+    console.log("Cartão Válido!")
+  } else {
+    console.log("Cartão Inválido!")
+  }
+}
+
+ValidateCard(NumCartao)

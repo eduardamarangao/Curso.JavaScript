@@ -1,10 +1,9 @@
 /*
 Primitivos (imutáveis) - string, number, boolean, undefined,
 null (bigint, symbol)
-*/
-let a = 'A' 
-let b = a // cópia 
-console.log(a,b)
 
-a = 'Outra coisa'
-console.log(a,b)
+Referência (mutável) - Array, object, function
+*/
+
+let a = [1,2,3]
+let b = a

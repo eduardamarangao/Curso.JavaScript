@@ -5,16 +5,14 @@ null (bigint, symbol) - Valores copiados
 Referência (mutável) - Array, object, function - Passados por referência
 */
 
-let a = [1,2,3] // os dois apontam para o mesmo lugar na memória
-let b = [...a] // valor de A puxado para dentro de B
-let c = b 
-console.log(a,b)
+const a = {
+    nome: 'Luiz',
+    sobrenome: 'Otávio'
+}
 
-a.push(4)
-console.log(a,b)
+const b = {...a}
 
-b.pop()
-console.log(a, b)
-
-a.push('luiz')
-console.log(c)
+//a.nome = 'João'
+b.nome = 'João'
+console.log(a)
+console.log(b)

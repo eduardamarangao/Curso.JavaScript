@@ -10,7 +10,7 @@ const a = {
     sobrenome: 'Otávio'
 }
 
-const b = {...a}
+const b = a
 
 //a.nome = 'João'
 b.nome = 'João'

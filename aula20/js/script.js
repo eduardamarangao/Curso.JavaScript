@@ -1,3 +1,3 @@
 function meuEscopo () {
-    let nome = 'eduarda'
+    alert(1)
 }

@@ -1,3 +1,5 @@
 function meuEscopo () {
-    alert(1)
+    const form = document.querySelector('.form')
 }
+
+meuEscopo()

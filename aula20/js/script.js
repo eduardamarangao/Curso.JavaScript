@@ -17,7 +17,9 @@ function meuEscopo () {
             sobrenome: sobrenome.value,
             peso: peso.value,
             altura: altura.value
-        })
+        });
+
+        console.log(pessoas)
     }
 
     form.addEventListener('submit', recebeEventoForm)

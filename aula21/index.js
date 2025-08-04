@@ -1,3 +1,18 @@
+const num1 = 10 // number
+const num2 = '10' // string
+const comp = num1 === num2
+console.log(comp)
+
+
+
+
+
+
+
+
+
+
+
 /*
 Operadores de comparaçao
 > maior que
@@ -9,7 +24,3 @@ Operadores de comparaçao
 != diferente (valor) ************
 !== diferente estrio (valor e tipo)
 */
-const num1 = 10
-const num2 = '10'
-const comp = num1 == num2
-console.log(comp)

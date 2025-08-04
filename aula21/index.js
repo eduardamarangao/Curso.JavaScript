@@ -9,9 +9,5 @@ Operadores de comparaçao
 != diferente (valor) **********
 !== diferente estrio (valor e tipo)
 */
-
-console.log(10 > 5)
-console.log(54 === 45)
-console.log(6 <= 8)
-console.log(10 != 10)
-console.log(65 >= 64)
+const comp = 10 > 5
+console.log(comp)

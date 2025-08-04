@@ -9,3 +9,5 @@ Operadores de comparaçao
 != diferente (valor) **********
 !== diferente estrio (valor e tipo)
 */
+
+console.log(10 > 5)

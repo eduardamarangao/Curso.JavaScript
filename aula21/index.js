@@ -11,3 +11,7 @@ Operadores de comparaçao
 */
 
 console.log(10 > 5)
+console.log(54 === 45)
+console.log(6 <= 8)
+console.log(10 != 10)
+console.log(65 >= 64)

@@ -5,5 +5,6 @@ Operadores lógicos
 ! -> NOT -> NÃO
 */
 
-const expressao = true && true && false
-console.log(expressao)
+const expressaoAnd = true && true && true
+const expressaoOr = true || false
+console.log(expressaoOr)

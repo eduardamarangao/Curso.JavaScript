@@ -1,8 +1,9 @@
 /*
 Operadores lógicos 
-&& -> AND -> E
+&& -> AND -> E (todas as expressões precisam ser verdadeiras pra retornar true)
 || -> OR -> OU
 ! -> NOT -> NÃO
 */
 
-console.log(true && true && false)
+const expressao = true && true && false
+console.log(expressao)

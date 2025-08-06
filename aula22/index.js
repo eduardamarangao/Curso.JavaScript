@@ -12,9 +12,15 @@ const expressaoOr = false || true || true
 console.log(expressaoOr)
 */
 
+/*
 const usuario = 'Luiz'
 const senha = '123456'
 
 //                       True               False
 const vaiLogar = usuario === 'Luiz' || senha === '12456'
-console.log(vaiLogar)
+*/
+
+
+console.log(!false) // true
+console.log(!true) // false
+ 

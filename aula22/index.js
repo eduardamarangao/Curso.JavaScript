@@ -6,5 +6,5 @@ Operadores lógicos
 */
 
 const expressaoAnd = true && true && true
-const expressaoOr = true || false
+const expressaoOr = false || true || true
 console.log(expressaoOr)

@@ -4,3 +4,5 @@ Operadores lógicos
 || -> OR -> OU
 ! -> NOT -> NÃO
 */
+
+console.log(true && true)

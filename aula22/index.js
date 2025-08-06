@@ -5,6 +5,16 @@ Operadores lógicos
 ! -> NOT -> NÃO
 */
 
+
+/*
 const expressaoAnd = true && true && true
 const expressaoOr = false || true || true
 console.log(expressaoOr)
+*/
+
+const usuario = 'Luiz'
+const senha = '123456'
+
+//                       True               False
+const vaiLogar = usuario === 'Luiz' && senha === '12456'
+console.log(vaiLogar)

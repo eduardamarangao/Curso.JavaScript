@@ -5,4 +5,4 @@ Operadores lógicos
 ! -> NOT -> NÃO
 */
 
-console.log(true && true)
+console.log(true && true && false)

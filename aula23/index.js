@@ -3,4 +3,4 @@
 || ->
 */
 
-console.log('Luiz Otávio' && true && 'Maria')
+console.log('Luiz Otávio' && true && NaN)

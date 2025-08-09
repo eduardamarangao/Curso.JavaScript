@@ -9,6 +9,6 @@ null / undefined
 NaN
 */
 
-//  retorna o primeiro valor verdadeiro = 'eduarda'
-console.log(0 || false || null || 'eduarda' || true)
+//  retorna o primeiro valor verdadeiro = 'true'
+console.log(0 || false || null || 0 || true)
 

@@ -27,4 +27,4 @@ function falaOi () {
  
 const vaiExecultar = false
 
-vaiExecultar && console.log(falaOi()) 
+console.log(vaiExecultar && falaOi())

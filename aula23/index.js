@@ -8,4 +8,5 @@ FALSY
 null / undefined
 NaN
 */
+console.log('eduarda' && '' && 'rafaella')
 

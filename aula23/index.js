@@ -1,6 +1,6 @@
 /*
 && -> false && true -> false "o valor mesmo"
-|| ->
+|| -> true && false -> vai retornar o "valor verdadeiro"
 FALSY
 *false
 0
@@ -8,5 +8,7 @@ FALSY
 null / undefined
 NaN
 */
-console.log('eduarda' && '' && 'rafaella')
+
+//  retorna o primeiro valor verdadeiro = 'eduarda'
+console.log(0 || false || null || 'eduarda' || true)
 

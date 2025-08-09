@@ -21,10 +21,3 @@ const vaiLogar = usuario === 'Luiz' || senha === '12456'
 */
 
 
-function falaOi () {
-    return 'Oi'
-}
- 
-const vaiExecultar = 'duda';
-
-console.log(vaiExecultar && falaOi())

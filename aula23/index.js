@@ -9,6 +9,7 @@ null / undefined
 NaN
 */
 
-//  retorna o primeiro valor verdadeiro = 'true'
-console.log(0 || false || null || 0 || true)
+const corUsuario = null
+const corPadrao = corUsuario || 'preto'
 
+console.log(corPadrao)

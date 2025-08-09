@@ -21,6 +21,10 @@ const vaiLogar = usuario === 'Luiz' || senha === '12456'
 */
 
 
-console.log(!false) // true
-console.log(!true) // false
+function falaOi () {
+    return 'Oi'
+}
  
+const vaiExecultar = false
+
+vaiExecultar && falaOi() 

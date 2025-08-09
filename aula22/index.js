@@ -25,6 +25,6 @@ function falaOi () {
     return 'Oi'
 }
  
-const vaiExecultar = false
+let vaiExecultar;
 
 console.log(vaiExecultar && falaOi())

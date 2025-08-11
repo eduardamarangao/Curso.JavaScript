@@ -4,7 +4,7 @@ Entre 12 - 17 -> Boa tarde
 Entre 18 - 23 -> Boa noite
 */
 
-const hora = 13
+const hora = 50
 
 if (hora >= 0 && hora <= 11) { // se for verdadeiro
     console.log('Bom dia')
@@ -12,4 +12,6 @@ if (hora >= 0 && hora <= 11) { // se for verdadeiro
     console.log('Boa tarde')
 } else if (hora >= 18 && hora <= 23) {
     console.log('Boa noite')
+} else {
+    console.log('Olá')
 }

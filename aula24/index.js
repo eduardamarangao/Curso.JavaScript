@@ -4,6 +4,10 @@ Entre 12 - 17 -> Boa tarde
 Entre 18 - 23 -> Boa noite
 */
 
+// If pode ser usado sozinho
+// Sempre que utilizo a palavra else, preciso de um if antes
+// Eu posso ter vários else if's na checagem
+
 const hora = 50
 
 if (hora >= 0 && hora <= 11) { // se for verdadeiro

@@ -7,6 +7,7 @@ Entre 18 - 23 -> Boa noite
 // If pode ser usado sozinho
 // Sempre que utilizo a palavra else, preciso de um if antes
 // Eu posso ter vários else if's na checagem
+// Só posso ter um else na checagem
 
 const hora = 50
 

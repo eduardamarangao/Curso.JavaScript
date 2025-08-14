@@ -8,6 +8,7 @@ Entre 18 - 23 -> Boa noite
 // Sempre que utilizo a palavra else, preciso de um if antes
 // Eu posso ter vários else if's na checagem
 // Só posso ter um else na checagem
+// Podemos usar condiçoes sem else if, utilizando apenas if e else
 
 const hora = 50
 /*
@@ -22,10 +23,8 @@ if (hora >= 0 && hora <= 11) { // se for verdadeiro
 }
     */
 
-const tenhoGrana = true
+const tenhoGrana = 'duda'
 
 if (tenhoGrana){
     console.log('Vou sair de casa')
-} else {
-    console.log('Nao vou sair de casa')
-}
+} 

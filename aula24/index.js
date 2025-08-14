@@ -10,7 +10,7 @@ Entre 18 - 23 -> Boa noite
 // Só posso ter um else na checagem
 
 const hora = 50
-
+/*
 if (hora >= 0 && hora <= 11) { // se for verdadeiro
     console.log('Bom dia')
 } else if (hora >= 12 && hora <= 17) {
@@ -20,3 +20,4 @@ if (hora >= 0 && hora <= 11) { // se for verdadeiro
 } else {
     console.log('Olá')
 }
+    */

@@ -21,3 +21,11 @@ if (hora >= 0 && hora <= 11) { // se for verdadeiro
     console.log('Olá')
 }
     */
+
+const tenhoGrana = true
+
+if (tenhoGrana){
+    console.log('Vou sair de casa')
+} else {
+    console.log('Nao vou sair de casa')
+}

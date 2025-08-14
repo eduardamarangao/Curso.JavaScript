@@ -1,8 +1,6 @@
-const numero = -10
+const numero = 3
 
 
-if (numero >= 0) {
-    console.log(`Sim, ${numero} é maior ou igual a zero.`)
-} else {
-    console.log(`Nao, ${numero} nao é maior ou igual a zero.`)
-}
+if (numero >= 0 && numero <= 5) {
+    console.log(`${numero} está entre 0 e 5.`)
+} 

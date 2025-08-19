@@ -23,20 +23,12 @@ body {
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
+ 
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
   margin-bottom: 10px;
-}
-
-form input {
-  display: block;
-  width: 100%;
-}
-
-form label {
-  display: block;
-  width: 100%;
-}
-form button {
-  display: block;
-  width: 100%;
 }
 

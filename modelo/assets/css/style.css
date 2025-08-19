@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #ffb2f5;
+  --primary-color-darker: #2e2c2c;
 }
 
 * {
@@ -40,4 +41,18 @@ form input {
 
 form input:focus {
   outline: 4px solid var(--primary-color)
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+}
+
+form button:hover{
+  background: var(--primary-color-darker)
 }

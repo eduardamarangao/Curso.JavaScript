@@ -1,10 +1,8 @@
-const { set } = require("mongoose");
-
 // Capturar evento de submit do formulário
 const form = document.querySelector("#form");
 
-form.addEventListener("submit", function (evento) {
-    evento.preventDefault()
+form.addEventListener("submit", function (e) {
+    e.preventDefault()
     console.log('Evento prevenido')
     setResultado('Olá mundo!')
 });

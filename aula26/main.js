@@ -13,4 +13,5 @@ function setResultado(msg) {
     resultado.innerHTML = "";
     const p = document.createElement('p')
     p.innerHTML = 'Qualquer coisa'
+    resultado.appendChild(p)
 }

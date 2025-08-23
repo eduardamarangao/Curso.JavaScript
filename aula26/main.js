@@ -10,5 +10,5 @@ form.addEventListener("submit", function (e) {
 
 function setResultado(msg) {
     const resultado = document.querySelector('#resultado')
-    resultado.innerHTML = `<p>${msg}</p>`;
+    resultado.innerHTML = "";
 }
